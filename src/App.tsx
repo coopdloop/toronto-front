@@ -1,13 +1,10 @@
 import "./index.css";
 import { Route, Routes } from "react-router-dom";
-
-// import { PageLoader } from "@/components/page-loader";
-
-import { HomePage } from "@/pages/home-page"
+import { HomePage } from "@/pages/home-page";
 import { ItPage } from "@/pages/it-page";
 import { NotFoundPage } from "@/pages/not-found-page";
 import { SearchPage } from "./pages/search-page";
-import { WifiPage } from "./components/information-tech/wifi-page";
+import { WifiPage } from "./pages/information-tech/wifi-page";
 
 const App = () => {
   return (
@@ -16,7 +13,10 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/search/information-technology" element={<ItPage />} />
-        <Route path="/search/information-technology/wifi" element={<WifiPage />} />
+        <Route
+          path="/search/information-technology/wifi"
+          element={<WifiPage />}
+        />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </main>

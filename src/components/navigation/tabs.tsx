@@ -5,19 +5,16 @@ export const itTabs = [
     title: "Home",
     href: "/",
     icon: Home,
-    // authenticated: true,
   },
   {
     title: "Search",
     href: "/search",
     icon: SearchCheck,
-    // authenticated: true,
   },
   {
     title: "Wi-Fi",
     href: "/search/information-technology/wifi",
     icon: Wifi,
-    // authenticated: true,
   },
 ];
 
@@ -59,18 +56,15 @@ export const rootTabs = [
     title: "Home",
     href: "/",
     icon: Home,
-    // authenticated: true,
   },
   {
     title: "Profile",
     href: "/profile",
     icon: User,
-    // authenticated: false,
   },
   {
     title: "Search",
     href: "/search",
     icon: SearchCheck,
-    // authenticated: true,
   },
 ];

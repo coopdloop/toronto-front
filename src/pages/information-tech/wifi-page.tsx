@@ -1,5 +1,4 @@
 import { PageLayout } from "@/components/page-layout";
-import { Computer } from "lucide-react";
 import { itWifiTabs } from "@/components/navigation/tabs";
 
 export const WifiPage = () => (

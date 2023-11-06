@@ -1,4 +1,3 @@
-import React from "react";
 import { NavBarTab } from "./nav-bar-tab";
 
 type NavBarTabsProps = {

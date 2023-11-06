@@ -1,4 +1,3 @@
-// import { NavBarButtons } from "./nav-bar-buttons";
 import { NavBarTabs } from "./nav-bar-tabs";
 
 type NavBarProps = {

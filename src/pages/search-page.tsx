@@ -1,6 +1,5 @@
 import { PageLayout } from "@/components/page-layout";
 import { SearchTile } from "@/components/search-tile";
-import { title } from "process";
 import { rootTabs } from "@/components/navigation/tabs"
 
 const tiles = [

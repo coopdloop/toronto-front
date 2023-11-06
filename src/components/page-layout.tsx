@@ -14,9 +14,8 @@ export const PageLayout = ({
     icon: any;
   }[];
 }) => {
-  // const { children, NavBarTabs } = pageLayoutProps;
   return (
-    <div className="flex md:flex-col flex-col-reverse overflow-hidden w-full h-full">
+    <div className="flex flex-col overflow-hidden w-full h-full">
       <section className="flex w-full">
         <Navigation tabs={NavBarTabs} />
         {children}
